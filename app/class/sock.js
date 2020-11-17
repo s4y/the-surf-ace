@@ -5,7 +5,7 @@
 		this.c = game.c;
 		this.roomID = null;
 		this.data = {sharks: []};
-		var socket = io.connect('http://surf.rl.io:9000');
+		var socket = io.connect('https://beneath.s4y.us');
 		socket.on('notifyRoomID', function(id) {
 			self.roomID = id;
 		});

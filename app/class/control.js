@@ -55,7 +55,7 @@
 					ctx.font = '30pt VT323';
 					ctx.fillStyle = 'black';
 					//SERVER URL
-					var url = "Visit HTTP://BEN.RL.IO on your mobile phone";
+					var url = "Visit HTTPS://BENEATH.S4Y.US on your mobile phone";
 					ctx.fillText('' + url, this.center.x, this.center.y+73);
 					ctx.fillStyle = 'white';
 					ctx.fillText('' + url, this.center.x, this.center.y+70);

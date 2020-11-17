@@ -1,4 +1,7 @@
-var io = require('socket.io').listen(9000);
+var http = require('http');
+var server = http.createServer();
+server.listen(9000, '127.0.0.1');
+var io = require('socket.io').listen(server);
 
 // Init variables
 var sockets = [];
